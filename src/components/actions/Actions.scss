@@ -1,0 +1,32 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+
+    li {
+      width: 100%;
+    }
+  }
+
+  div {
+    text-decoration: none;
+    width: 100%;
+
+    &.current-status {
+      background-color: yellowgreen;
+    }
+
+    & button {
+      cursor: pointer;
+      &.current-status {
+        background-color: yellowgreen;
+      }
+    }
+    a {
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+}

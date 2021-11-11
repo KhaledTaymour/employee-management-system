@@ -1,0 +1,24 @@
+@import "~antd/dist/antd.css";
+
+$headerFontSize: 24px;
+$headerFontColor: rgb(255, 255, 255);
+$headerBgColor: rgb(42, 99, 221);
+
+.App {
+  text-align: center;
+  display: grid;
+
+  header {
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0 5px 0;
+
+    font-size: $headerFontSize;
+    background-color: $headerBgColor;
+    color: $headerFontColor;
+  }
+}
