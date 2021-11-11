@@ -1,0 +1,8 @@
+{
+  "services": {
+    "domain": "http://localhost:8000/",
+    "getAllEmployees": "employees",
+    "createEmployee": "employees",
+    "updateEmployee": "employees/{employee_id}"
+  }
+}
